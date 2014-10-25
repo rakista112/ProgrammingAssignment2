@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix returns a matrix with getter and setter methods and a private inverse variable
+## cacheSolve solves the inverse of a matrix returned by makeCacheMatrix and caches the inverse variable in the passed matrix
 
-## Write a short comment describing this function
+## Returns a matrix with getter and setter methods
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Returns and caches the inverse of the given matrix made from makeCacheMatrix
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
